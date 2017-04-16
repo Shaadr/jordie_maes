@@ -1,2 +1,7 @@
 .sass-cache/
 *.css.map
+node_modules
+config.js
+.DS_Store
+bundle.js
+stylesbundle.css
