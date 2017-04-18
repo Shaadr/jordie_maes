@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app=jmaes>
+<html ng-app=rmaes>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,18 +13,13 @@
   </head>
   <body>
 
-    <div class="navBar">
-      <nav ui-sref='home'>Home</nav>
-      <nav ui-sref='about'>About</nav>
-      <nav ui-sref='shop'>Shop</nav>
-      <nav ui-sref='account'>Account</nav>
-    </div>
+    <header-dir></header-dir>
 
     <ui-view></ui-view>
 
     <!-- CDNs -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
 
     <!-- Script Bundle -->
     <script src="./bundle.js"></script>

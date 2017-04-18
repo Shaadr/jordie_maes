@@ -1,6 +1,6 @@
 // CONFIG
 // ============================================================
-angular.module("jmaes", ['ui.router']).config(function($stateProvider, $urlRouterProvider) {
+angular.module("rmaes", ['ui.router']).config(function($stateProvider, $urlRouterProvider) {
 
   // INITILIZE STATES
   // ============================================================

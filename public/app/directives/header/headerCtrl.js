@@ -1,9 +1,9 @@
 // INITILIZE CONTROLLER
 // ============================================================
-angular.module("rmaes").controller("homeCtrl", function($scope) {
+angular.module("rmaes").controller("headerCtrl", function($scope) {
   // VARIABLES
   // ============================================================
-  $scope.ctrl = "home"
+  $scope.ctrl = "test"
   // FUNCTIONS
   // ============================================================
 });
