@@ -1,1 +1,15 @@
+
 <h1>Hello {{ctrl}} World</h1>
+
+<form ng-submit="getPokemon(pokemon)">
+    <input ng-model="pokemon" type="text" placeholder="Search Pokemon..." >
+    <button>Submit</button>
+</form>
+
+
+<div ng-model="pokemon">
+    <h1>{{pokemonName}}</h1>
+    <ul>
+        <li ng-repeat="poke in pokemon">{{poke.abilities}}</li>
+    </ul>
+</div>

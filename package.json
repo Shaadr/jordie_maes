@@ -27,6 +27,6 @@
     "gulp-nodemon": "^2.2.1",
     "gulp-sass": "^3.1.0",
     "gulp-watch": "^4.3.11",
-    "massive": "^2.6.0"
+    "massive": "^2.6.1"
   }
 }
